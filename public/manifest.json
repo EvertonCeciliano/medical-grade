@@ -1,0 +1,16 @@
+{
+    "name": "Medicync — Clinical-Grade AI Workstation",
+    "short_name": "Medicync",
+    "description": "The first laptop built for medicine. Clinical-grade imaging, HIPAA security, AI diagnostics.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4159ff",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "any",
+            "type": "image/x-icon"
+        }
+    ]
+}

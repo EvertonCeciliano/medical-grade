@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --navy: #070d1a;
-  --navy-mid: #0B1A2F;
-  --blue: #4F86F7;
+  --navy: #FFFFFF;
+  --navy-mid: #F5F7FA;
+  --blue: #4159ff;
   --deep: #1F417D;
-  --light: #F4F7FC;
+  --light: #111827;
 }
 
 @theme inline {
@@ -28,7 +28,7 @@ body {
 }
 
 ::selection {
-  background: var(--blue);
+  background: #4159ff;
   color: white;
 }
 
@@ -37,14 +37,86 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--navy);
+  background: #F8FAFC;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1F417D;
+  background: #CBD5E1;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #4F86F7;
+  background: #94A3B8;
+}
+
+/* ── Animations ── */
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(65, 89, 255, 0.3), 0 4px 15px rgba(65, 89, 255, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(65, 89, 255, 0.5), 0 4px 25px rgba(65, 89, 255, 0.35);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes bounce-subtle {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+.btn-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.btn-glow:hover {
+  animation: none;
+  box-shadow: 0 0 40px rgba(65, 89, 255, 0.6), 0 8px 30px rgba(65, 89, 255, 0.4);
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+.shimmer-banner {
+  background: linear-gradient(90deg, #4159ff 0%, #6b7bff 25%, #4159ff 50%, #6b7bff 75%, #4159ff 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+}
+
+.bounce-arrow {
+  animation: bounce-subtle 1.5s ease-in-out infinite;
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 20s linear infinite;
 }
