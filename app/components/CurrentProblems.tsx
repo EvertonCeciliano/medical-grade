@@ -25,19 +25,19 @@ const problems = [
 
 export default function CurrentProblems() {
     return (
-        <section className="px-6 py-28">
+        <section className="px-4 sm:px-6 py-12 sm:py-28">
             <div className="max-w-7xl mx-auto">
                 <Badge icon={AlertTriangle} label="Problem" />
-                <div className="mt-10 mb-16">
-                    <h2 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight mb-4">
+                <div className="mt-6 sm:mt-10 mb-8 sm:mb-16">
+                    <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight leading-tight mb-4">
                         Why Every Other Laptop Fails Doctors
                     </h2>
-                    <p className="text-base text-slate-400 max-w-lg leading-relaxed">
+                    <p className="text-sm sm:text-base text-slate-400 max-w-lg leading-relaxed">
                         You wouldn&apos;t use a consumer scalpel. Why are you trusting a consumer laptop with patient data and diagnostic imaging?
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-5">
+                <div className="grid sm:grid-cols-2 gap-3 sm:gap-5">
                     {problems.map((p, i) => (
                         <GlassCard key={i}>
                             <h3 className="text-lg font-semibold tracking-tight mb-2">{p.title}</h3>
@@ -46,14 +46,14 @@ export default function CurrentProblems() {
                     ))}
                 </div>
 
-                <div className="mt-12 text-center">
+                <div className="mt-8 sm:mt-12 text-center">
                     <a
                         href="#waitlist"
                         className="btn-glow inline-flex items-center gap-2 bg-[#4159ff] text-white text-sm font-semibold px-7 py-3.5 rounded-full hover:bg-[#3347d9] transition-all"
                     >
-                        There&apos;s a Better Way — $0 to Start <span className="bounce-arrow"><ArrowRight size={15} /></span>
+                        There&apos;s a Better Way, $0 to Start <span className="bounce-arrow"><ArrowRight size={15} /></span>
                     </a>
-                    <p className="text-xs text-slate-400 mt-3">Join the waitlist. <span className="font-semibold text-[#4159ff]">First 1,000 physicians: $500.</span></p>
+                    <p className="text-xs text-slate-400 mt-3">Join the waitlist. <span className="font-semibold text-[#4159ff]">First 1,000 clients: $500.</span></p>
                 </div>
             </div>
         </section>

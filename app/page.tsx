@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import BuiltForSlider from "./components/BuiltForSlider";
+
 import ClinicalStakes from "./components/ClinicalStakes";
 import CurrentProblems from "./components/CurrentProblems";
 import TheProduct from "./components/TheProduct";
@@ -11,16 +11,16 @@ import ColorVariants from "./components/ColorVariants";
 import ImagingBreak from "./components/ImagingBreak";
 import WhyHospitals from "./components/WhyHospitals";
 
-import BuiltFor from "./components/BuiltFor";
+
 import Founder from "./components/Founder";
 import FAQ from "./components/FAQ";
 import Waitlist from "./components/Waitlist";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "Medicync — The First Laptop Built for Medicine | Clinical-Grade AI Workstation",
+  title: "Medicync | The First Laptop Built for Medicine | Clinical-Grade AI Workstation",
   description:
-    "Purpose-built clinical-grade AI workstation laptop for physicians. GPU-accelerated CBCT, CT & MRI imaging, HIPAA-compliant biometric security, DICOM-grade display, and AI-powered diagnostics. Join the beta — first 1,000 physicians get Medicync for $500.",
+    "Purpose-built clinical-grade AI workstation laptop for clients. GPU-accelerated CBCT, CT & MRI imaging, HIPAA-compliant biometric security, DICOM-grade display, and AI-powered diagnostics. Join the beta, first 1,000 clients get Medicync laptop for $500.",
 };
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
     "@type": "Product",
     name: "Medicync Clinical-Grade AI Workstation Laptop",
     description:
-      "The first laptop built specifically for medicine. Clinical-grade imaging, absolute data security, AI-powered intelligence, and HIPAA compliance — all in one device.",
+      "The first laptop built specifically for medicine. Clinical-grade imaging, absolute data security, AI-powered intelligence, and HIPAA compliance,all in one device.",
     brand: {
       "@type": "Brand",
       name: "Medicync",
@@ -45,7 +45,7 @@ export default function Home() {
       price: "500",
       priceCurrency: "USD",
       availability: "https://schema.org/PreOrder",
-      description: "Beta pricing for the first 1,000 physicians. $0 to reserve.",
+      description: "Beta pricing for the first 1,000 clients. $0 to reserve.",
     },
     manufacturer: {
       "@type": "Organization",
@@ -108,7 +108,7 @@ export default function Home() {
         name: "What does the Medicync waitlist cost?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Nothing. $0 to reserve, no commitment. First 1,000 physicians get Medicync for $500 beta pricing.",
+          text: "Nothing. $0 to reserve, no commitment. First 1,000 clients get Medicync laptop for $500 beta pricing.",
         },
       },
     ],
@@ -121,7 +121,7 @@ export default function Home() {
     url: "https://medicync.com",
     logo: "https://medicync.com/logo-medicync-new.png",
     description:
-      "Medicync builds clinical-grade AI workstation laptops purpose-built for physicians, hospitals, and medical research institutions.",
+      "Medicync builds clinical-grade AI workstation laptops purpose-built for clients, hospitals, and medical research institutions.",
     founder: {
       "@type": "Person",
       name: "Dr. Jenny Chang",
@@ -165,7 +165,7 @@ export default function Home() {
         <Navbar />
         <main>
           <Hero />
-          <BuiltForSlider />
+
           <ClinicalStakes />
           <CurrentProblems />
           <TheProduct />
@@ -175,7 +175,6 @@ export default function Home() {
           <ImagingBreak />
           <WhyHospitals />
 
-          <BuiltFor />
           <Founder />
           <FAQ />
           <Waitlist />
