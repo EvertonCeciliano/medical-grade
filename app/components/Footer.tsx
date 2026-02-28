@@ -11,13 +11,21 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
                     {/* Brand — wider column */}
                     <div className="md:col-span-5">
-                        <Image
-                            src="/logo-medicync-new.png"
-                            alt="Medicync"
-                            width={140}
-                            height={32}
-                            className="object-contain mb-4"
-                        />
+                        <div className="flex items-center gap-2 mb-4">
+                            <Image
+                                src="/logo-3d.png"
+                                alt="Medicync"
+                                width={36}
+                                height={36}
+                                className="object-contain w-9 h-9"
+                            />
+                            <span
+                                className="text-xl font-bold text-slate-900 tracking-tight"
+                                style={{ fontFamily: '"Helvetica World", "Helvetica Neue", Helvetica, Arial, sans-serif' }}
+                            >
+                                Medicync
+                            </span>
+                        </div>
                         <p className="text-sm text-slate-500 max-w-sm leading-relaxed">
                             The first laptop built for medicine. Clinical-grade performance,
                             absolute data security, AI-powered intelligence.
@@ -32,10 +40,10 @@ export default function Footer() {
                         <ul className="space-y-2.5 text-sm">
                             <li>
                                 <a
-                                    href="#capabilities"
+                                    href="#features"
                                     className="text-slate-500 hover:text-[#4159ff] transition-colors"
                                 >
-                                    Capabilities
+                                    Features
                                 </a>
                             </li>
                             <li>

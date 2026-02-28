@@ -15,13 +15,21 @@ export default function Navbar() {
 
             <nav aria-label="Main navigation" className="fixed top-[44px] sm:top-[44px] w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
-                    <Image
-                        src="/logo-medicync-new.png"
-                        alt="Medicync"
-                        width={120}
-                        height={28}
-                        className="object-contain sm:w-[140px]"
-                    />
+                    <a href="#" className="flex items-center gap-2">
+                        <Image
+                            src="/logo-3d.png"
+                            alt="Medicync"
+                            width={36}
+                            height={36}
+                            className="object-contain w-8 h-8 sm:w-9 sm:h-9"
+                        />
+                        <span
+                            className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight"
+                            style={{ fontFamily: '"Helvetica World", "Helvetica Neue", Helvetica, Arial, sans-serif' }}
+                        >
+                            Medicync
+                        </span>
+                    </a>
 
                     {/* CTA — visible on all screen sizes */}
                     <a

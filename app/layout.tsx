@@ -19,7 +19,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Medicync — The First Laptop Built for Medicine",
+    default: "Medicync — The First Laptop Built for Healthcare",
     template: "%s | Medicync",
   },
   description:
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "Medicync",
-    title: "Medicync — The First Laptop Built for Medicine",
+    title: "Medicync — The First Laptop Built for Healthcare",
     description:
       "Clinical-grade AI workstation for physicians. GPU-accelerated imaging, absolute data security, and AI-powered intelligence. Join the beta — first 1,000 physicians get it for $500.",
     images: [
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Medicync — The First Laptop Built for Medicine",
+    title: "Medicync — The First Laptop Built for Healthcare",
     description:
       "Clinical-grade AI workstation for physicians. GPU-accelerated imaging, HIPAA-compliant security, DICOM display. Join the beta program.",
     images: ["/notebook-branco-profissional.png"],

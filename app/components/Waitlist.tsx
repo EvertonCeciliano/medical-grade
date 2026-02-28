@@ -121,7 +121,7 @@ export default function Waitlist() {
                         ) : (
                             <form className="space-y-3 sm:space-y-4" onSubmit={handleSubmit}>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
-                                    <Field label="Full Name" placeholder="Dr. Jane Doe" name="name" required />
+                                    <Field label="Full Name" placeholder="Dr. Jenny Chang" name="name" required />
                                     <Field label="Specialty" placeholder="e.g. Radiology, Oral Surgery" name="specialty" />
                                 </div>
                                 <Field label="Institution" placeholder="Hospital, Clinic or University" name="institution" />
