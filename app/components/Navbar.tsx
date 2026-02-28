@@ -6,7 +6,7 @@ export default function Navbar() {
             {/* Promo banner */}
             <div className="shimmer-banner fixed top-0 w-full z-[60] text-white text-center py-2.5 sm:py-3 px-4 flex items-center justify-center min-h-[44px] sm:min-h-[44px]">
                 <a href="#waitlist" className="flex items-center justify-center gap-1.5 sm:gap-2 text-[11px] sm:text-sm font-medium hover:underline leading-tight">
-                    <span className="hidden sm:inline">🚀</span> Beta Program Open — First 1,000 physicians:
+                    <span className="hidden sm:inline">🚀</span> Beta Program Open — First 1,000 clients:
                     <span className="font-black text-sm sm:text-base bg-white/20 px-2 py-0.5 rounded-full">$500</span>
                     <span className="hidden sm:inline">·</span> Reserve for <span className="font-bold">$0</span>
                     <span className="inline-block animate-bounce ml-1">→</span>

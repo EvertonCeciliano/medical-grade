@@ -13,7 +13,7 @@ export default function BoldStatement() {
                             Your patients deserve better tools than what you&apos;re using right now.
                         </h2>
                         <p className="text-base text-slate-400 mt-6 max-w-md">
-                            The physicians who join the waitlist today will have a permanent advantage over those who wait.
+                            The clients who join the waitlist today will have a permanent advantage over those who wait.
                         </p>
 
                         {/* Urgency box */}

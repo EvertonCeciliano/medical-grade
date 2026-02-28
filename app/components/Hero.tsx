@@ -42,7 +42,7 @@ export default function Hero() {
                                 <p className="text-base font-bold text-slate-800 mb-1">
                                     Limited Beta Pricing: <span className="text-[#4159ff] text-xl">$500</span>
                                 </p>
-                                <p className="text-xs text-slate-500 leading-relaxed">First 1,000 physicians only · $0 to reserve · No commitment · Founding member benefits disappear at launch</p>
+                                <p className="text-xs text-slate-500 leading-relaxed">First 1,000 clients only · $0 to reserve · No commitment · Founding member benefits disappear at launch</p>
                             </div>
                         </div>
 
@@ -104,7 +104,7 @@ export default function Hero() {
                             <p className="text-sm font-bold text-slate-800">
                                 Beta Pricing: <span className="text-[#4159ff]">$500</span>
                             </p>
-                            <p className="text-[10px] text-slate-500 mt-0.5">First 1,000 physicians · $0 to reserve · No commitment</p>
+                            <p className="text-[10px] text-slate-500 mt-0.5">First 1,000 clients · $0 to reserve · No commitment</p>
                         </div>
                     </div>
 

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Medicync",
   },
   description:
-    "Clinical-grade AI workstation laptop built for physicians. GPU-accelerated medical imaging, HIPAA-compliant security, DICOM-grade display, and AI-powered diagnostics — all in one device. Join the beta program.",
+    "Clinical-grade AI workstation laptop built for clients. GPU-accelerated medical imaging, HIPAA-compliant security, DICOM-grade display, and AI-powered diagnostics — all in one device. Join the beta program.",
   keywords: [
     "medical laptop",
     "clinical workstation",
@@ -64,13 +64,13 @@ export const metadata: Metadata = {
     siteName: "Medicync",
     title: "Medicync — The First Laptop Built for Healthcare",
     description:
-      "Clinical-grade AI workstation for physicians. GPU-accelerated imaging, absolute data security, and AI-powered intelligence. Join the beta — first 1,000 physicians get it for $500.",
+      "Clinical-grade AI workstation for clients. GPU-accelerated imaging, absolute data security, and AI-powered intelligence. Join the beta — first 1,000 clients get it for $500.",
     images: [
       {
         url: "/notebook-branco-profissional.png",
         width: 1200,
         height: 630,
-        alt: "Medicync clinical-grade laptop for physicians",
+        alt: "Medicync clinical-grade laptop for clients",
         type: "image/png",
       },
     ],
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Medicync — The First Laptop Built for Healthcare",
     description:
-      "Clinical-grade AI workstation for physicians. GPU-accelerated imaging, HIPAA-compliant security, DICOM display. Join the beta program.",
+      "Clinical-grade AI workstation for clients. GPU-accelerated imaging, HIPAA-compliant security, DICOM display. Join the beta program.",
     images: ["/notebook-branco-profissional.png"],
     creator: "@medicync",
   },

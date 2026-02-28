@@ -7,7 +7,7 @@ import Badge from "./Badge";
 const faqs = [
     {
         q: "Who is this actually for?",
-        a: "Physicians, dentists, oral surgeons, radiologists, clinical researchers. Anyone whose work depends on imaging, patient data, or planning software, it's powerful enough to be a premium everyday laptop, but it was made for the people who can't afford a lag.",
+        a: "Clients, dentists, oral surgeons, radiologists, clinical researchers. Anyone whose work depends on imaging, patient data, or planning software, it's powerful enough to be a premium everyday laptop, but it was made for the people who can't afford a lag.",
     },
     {
         q: "Can it really handle my imaging workload?",

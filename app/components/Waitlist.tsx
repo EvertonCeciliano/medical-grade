@@ -89,7 +89,7 @@ export default function Waitlist() {
                                 <span className="text-2xl sm:text-3xl font-black text-[#4159ff]">$500</span>
                                 <span className="text-[10px] sm:text-xs font-semibold text-slate-400 uppercase tracking-wider">Beta Pricing</span>
                             </div>
-                            <p className="text-xs sm:text-sm font-semibold text-slate-700 mb-2">First 1,000 physicians get Medicync laptop at this price.</p>
+                            <p className="text-xs sm:text-sm font-semibold text-slate-700 mb-2">First 1,000 clients get Medicync laptop at this price.</p>
                             <div className="w-full bg-slate-200 rounded-full h-1.5 mb-2">
                                 <div className="bg-[#4159ff] h-1.5 rounded-full" style={{ width: "67%" }} />
                             </div>

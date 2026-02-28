@@ -37,7 +37,7 @@ export default function Home() {
     category: "Medical Equipment",
     audience: {
       "@type": "MedicalAudience",
-      audienceType: "Physicians, Surgeons, Radiologists, Dentists, Clinical Researchers",
+      audienceType: "Clients, Surgeons, Radiologists, Dentists, Clinical Researchers",
     },
     image: "https://medicync.com/notebook-branco-profissional.png",
     offers: {
@@ -76,7 +76,7 @@ export default function Home() {
         name: "Who is Medicync for?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Physicians, dentists, oral surgeons, radiologists, clinical researchers - anyone whose work depends on imaging, patient data, or planning software.",
+          text: "Clients, dentists, oral surgeons, radiologists, clinical researchers - anyone whose work depends on imaging, patient data, or planning software.",
         },
       },
       {
