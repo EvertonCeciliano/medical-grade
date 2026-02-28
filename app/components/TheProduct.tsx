@@ -7,7 +7,7 @@ import GlassCard from "./GlassCard";
 
 export default function TheProduct() {
     return (
-        <section className="px-4 sm:px-6 py-12 sm:py-28">
+        <section className="px-4 sm:px-6 py-8 sm:py-28">
             <div className="max-w-7xl mx-auto">
                 <Badge icon={Monitor} label="Our Product" />
                 <div className="grid lg:grid-cols-2 gap-8 sm:gap-16 lg:gap-24 items-start mt-6 sm:mt-10">

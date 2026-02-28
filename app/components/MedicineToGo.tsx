@@ -5,7 +5,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 
 export default function MedicineToGo() {
     return (
-        <section className="relative px-4 sm:px-6 py-16 sm:py-32 overflow-hidden">
+        <section className="relative px-4 sm:px-6 py-10 sm:py-32 overflow-hidden">
             {/* full-width background image */}
             <div className="absolute inset-0">
                 <Image src="/notebook-dentist-office.png" alt="Medicync in dental office" fill className="object-cover object-center -scale-x-100" />

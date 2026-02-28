@@ -5,7 +5,7 @@ import Badge from "./Badge";
 
 export default function WhyHospitals() {
     return (
-        <section className="px-4 sm:px-6 py-12 sm:py-28">
+        <section className="px-4 sm:px-6 py-8 sm:py-28">
             <div className="max-w-7xl mx-auto">
                 <Badge icon={Building2} label="For Institutions" />
                 <div className="mt-6 sm:mt-10 mb-8 sm:mb-16">

@@ -6,8 +6,8 @@ import Badge from "./Badge";
 
 export default function Founder() {
     return (
-        <section className="px-4 sm:px-6 py-12 sm:py-28">
-            <div className="max-w-7xl mx-auto border-t border-slate-200 pt-10 sm:pt-20">
+        <section className="px-4 sm:px-6 py-8 sm:py-28">
+            <div className="max-w-7xl mx-auto border-t border-slate-200 pt-6 sm:pt-20">
                 <Badge icon={ShieldCheck} label="Founded by" />
                 <div className="grid lg:grid-cols-[1fr_1.3fr] gap-8 sm:gap-12 lg:gap-20 items-start mt-6 sm:mt-10">
                     {/* photo */}

@@ -5,7 +5,7 @@ import Badge from "./Badge";
 
 export default function ClinicalStakes() {
     return (
-        <section className="px-4 sm:px-6 py-12 sm:py-28">
+        <section className="px-4 sm:px-6 py-8 sm:py-28">
             <div className="max-w-7xl mx-auto">
                 <Badge icon={Target} label="Clinical Stakes" />
                 <div className="grid lg:grid-cols-2 gap-8 sm:gap-16 lg:gap-24 items-center mt-6 sm:mt-10">

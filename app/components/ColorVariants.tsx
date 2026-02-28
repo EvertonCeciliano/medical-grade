@@ -6,7 +6,7 @@ import Badge from "./Badge";
 
 export default function ColorVariants() {
     return (
-        <section className="px-4 sm:px-6 py-12 sm:py-28">
+        <section className="px-4 sm:px-6 py-8 sm:py-28">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-8 sm:mb-16">
                     <Badge icon={Monitor} label="Color Variants" />

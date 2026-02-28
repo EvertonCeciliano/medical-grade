@@ -54,7 +54,7 @@ const capabilities = [
 
 export default function Capabilities() {
     return (
-        <section id="features" className="px-4 sm:px-6 py-12 sm:py-28">
+        <section id="features" className="px-4 sm:px-6 py-8 sm:py-28">
             <div className="max-w-7xl mx-auto">
                 <Badge icon={Zap} label="Key Features" />
                 <div className="mt-6 sm:mt-10 mb-8 sm:mb-16">
