@@ -34,13 +34,13 @@ export default function Hero() {
                         Every other laptop makes you work around its limits. <span className="text-slate-700 font-medium">Medicync has none worth mentioning.</span>
                     </p>
 
-                    <div className="inline-flex items-start gap-3 px-4 sm:px-5 py-3 sm:py-4 rounded-xl bg-[#4159ff]/8 border border-[#4159ff]/25 mb-6 sm:mb-8 backdrop-blur-sm">
-                        <Sparkles size={18} className="text-[#4159ff] shrink-0 mt-0.5" />
+                    <div className="inline-flex items-start gap-3 sm:gap-4 px-4 sm:px-6 py-4 sm:py-5 rounded-2xl bg-[#4159ff]/10 border border-[#4159ff]/25 mb-6 sm:mb-8 backdrop-blur-sm">
+                        <Sparkles size={20} className="text-[#4159ff] shrink-0 mt-1" />
                         <div>
-                            <p className="text-xs sm:text-sm font-bold text-slate-800 mb-0.5">
-                                Limited Offer: First 1,000 clients get Medicync laptop for <span className="text-[#4159ff]">$500</span>
+                            <p className="text-sm sm:text-base font-bold text-slate-800 mb-1">
+                                Limited Beta Pricing: <span className="text-[#4159ff] text-lg sm:text-xl">$500</span>
                             </p>
-                            <p className="text-[10px] sm:text-xs text-slate-400">$0 to reserve · No commitment · Founding member benefits disappear at launch</p>
+                            <p className="text-[10px] sm:text-xs text-slate-500 leading-relaxed">First 1,000 physicians only · $0 to reserve · No commitment · Founding member benefits disappear at launch</p>
                         </div>
                     </div>
 

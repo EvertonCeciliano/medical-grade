@@ -11,7 +11,7 @@ export default function Founder() {
                 <Badge icon={ShieldCheck} label="Founded by" />
                 <div className="grid lg:grid-cols-[1fr_1.3fr] gap-8 sm:gap-12 lg:gap-20 items-start mt-6 sm:mt-10">
                     {/* photo */}
-                    <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-slate-200 border border-slate-200 max-w-sm mx-auto lg:max-w-none">
+                    <div className="relative w-full aspect-[4/5] sm:aspect-[3/4] rounded-2xl overflow-hidden bg-slate-200 border border-slate-200 max-w-[220px] sm:max-w-sm mx-auto lg:max-w-none">
                         <Image src="/dr-jenny-chang.jpg" alt="Dr. Jenny Chang" fill className="object-cover" />
                     </div>
 
