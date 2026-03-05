@@ -50,7 +50,7 @@ export default function TheProduct() {
 
                 {/* laptop image below cards */}
                 <div className="relative w-full aspect-[16/9] rounded-2xl sm:rounded-3xl overflow-hidden mt-8 sm:mt-14">
-                    <Image src="/notebook-white-home.png" alt="Medicync in home office" fill className="object-cover" />
+                    <Image src="/notebook-amarelo-home.jpg" alt="Medicync in home office" fill className="object-cover" />
                     <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent pt-16 sm:pt-20 pb-6 sm:pb-8 px-5 sm:px-8">
                         <p className="text-sm font-semibold text-white">Medicync</p>
                         <p className="text-xs text-white/60 mt-1">Medical-grade hardware. Clinical-grade performance. Absolute data security.</p>
