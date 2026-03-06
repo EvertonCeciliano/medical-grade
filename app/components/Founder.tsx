@@ -45,7 +45,7 @@ export default function Founder() {
 
                         <div className="grid grid-cols-3 gap-4 sm:gap-6 pt-5 sm:pt-6 border-t border-slate-200">
                             {[
-                                { value: "20+", label: "Years in practice" },
+                                { value: "16+", label: "Years in practice" },
                                 { value: "16", label: "Years at Harvard" },
                                 { value: "NIH", label: "Award recipient" },
                             ].map((s, i) => (
