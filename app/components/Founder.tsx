@@ -19,11 +19,11 @@ export default function Founder() {
                     <div>
                         <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight mb-2">Dr. Jenny Chang</h3>
                         <p className="text-xs sm:text-sm text-slate-400 mb-6 sm:mb-8">
-                            Prosthodontist &middot; Founder & CEO, Chang Dental Group
+                            Harvard-trained Prosthodontist (DMD, DMSc) &middot; Founder, Chang Dental Group & Cape Cod Dental Group
                         </p>
 
                         <div className="flex flex-wrap gap-2 mb-6 sm:mb-10">
-                            {["Harvard DMD, Magna Cum Laude", "NIH Scientist Award", "16yr Harvard Faculty", "Implant Dentistry", "Oral Reconstruction"].map((c, i) => (
+                            {["Harvard DMD, DMSc", "NIH Dentist-Scientist Award", "Harvard Faculty", "Implant Reconstruction", "Digital Dentistry"].map((c, i) => (
                                 <span key={i} className="text-[10px] sm:text-[11px] font-medium text-[#4159ff]/70 px-2.5 sm:px-3 py-1 sm:py-1.5 border border-[#4159ff]/15 rounded-full uppercase tracking-wide">
                                     {c}
                                 </span>
@@ -31,27 +31,27 @@ export default function Founder() {
                         </div>
 
                         <p className="text-sm sm:text-[15px] text-slate-500 leading-[1.8] mb-4 sm:mb-5">
-                            Dr. Chang is a Prosthodontist and Founder & CEO of Chang Dental Group, a specialist in the esthetic restoration and replacement of teeth. She graduated Magna Cum Laude from Harvard School of Dental Medicine.
+                            Dr. Jenny Chang is a Harvard-trained prosthodontist (DMD, DMSc) and founder of Chang Dental Group and Cape Cod Dental Group, multi-location specialty practices focused on complex implant reconstruction and advanced esthetic dentistry.
                         </p>
                         <p className="text-sm sm:text-[15px] text-slate-500 leading-[1.8] mb-6 sm:mb-10">
-                            Her advanced training spans dental implants, oral and reconstructive surgery, TMD disorders, sleep apnea treatment, traumatic injuries and oral cancer reconstruction.
+                            With more than 30 years of clinical and surgical experience and early leadership in digital dentistry, she has firsthand insight into the technological gaps in modern medical imaging and clinical workflows. Dr. Chang is also a recipient of the National Institutes of Health Dentist-Scientist Award and has served on the faculty of Harvard School of Dental Medicine.
                         </p>
 
                         <blockquote className="border-l-2 border-[#4159ff] pl-4 sm:pl-5 mb-6 sm:mb-10">
                             <p className="text-sm sm:text-[15px] text-slate-400 leading-relaxed italic">
-                                &ldquo;I built Medicync because I spent years doing clinical work on machines that were never designed for it. Every lag, every crash, every security gap. We felt it. This is the machine I always needed.&rdquo;
+                                &ldquo;I built Medicync because I spent years doing clinical work on computers that were never designed for medicine. Every lag, every crash, every security gap slowed down how doctors work. Medicync is the machine I always needed.&rdquo;
                             </p>
                         </blockquote>
 
                         <div className="grid grid-cols-3 gap-4 sm:gap-6 pt-5 sm:pt-6 border-t border-slate-200">
                             {[
-                                { value: "16+", label: "Years in practice" },
-                                { value: "16", label: "Years at Harvard" },
-                                { value: "NIH", label: "Award recipient" },
+                                { value: "30+", label: "Years in practice" },
+                                { value: "NIH", label: "Dentist-Scientist Award" },
+                                { value: "Harvard", label: "Faculty member" },
                             ].map((s, i) => (
                                 <div key={i}>
                                     <p className="text-xl sm:text-2xl font-bold tracking-tight">{s.value}</p>
-                                    <p className="text-[10px] sm:text-[11px] text-slate-300 uppercase tracking-wide mt-1">{s.label}</p>
+                                    <p className="text-[10px] sm:text-[11px] text-slate-500 uppercase tracking-wide mt-1">{s.label}</p>
                                 </div>
                             ))}
                         </div>
